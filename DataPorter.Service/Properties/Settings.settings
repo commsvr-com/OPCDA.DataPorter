@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CAS.DataPorter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MonitorInterfacePort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7999</Value>
+    </Setting>
+    <Setting Name="MonitorInterfaceEntryName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DataPorter.Monitor.Interface</Value>
+    </Setting>
+    <Setting Name="MonitorInterfaceHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="SleepAfterConnect" Type="System.String" Scope="User">
+      <Value Profile="(Default)">00:00:00.1000000</Value>
+    </Setting>
+    <Setting Name="ItemDscConfigurationFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">item_dsc.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

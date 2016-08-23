@@ -1,0 +1,4 @@
+DBRefFolders found in your dbp file
+Connect String: Data Source=CAS_MZNEW2\SQLEXPRESS;AttachDbFilename=C:\vs\VS_Trunk_DDE_Client\PR26-DataPorter\DataPorterDataBase\DataPorterDataBase.mdf;Initial Catalog=DataPorterDataBase;Integrated Security=True
+Provider: Microsoft SQL Server
+

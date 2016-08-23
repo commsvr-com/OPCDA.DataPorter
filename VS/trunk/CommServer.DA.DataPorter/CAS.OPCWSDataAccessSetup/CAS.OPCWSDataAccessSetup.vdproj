@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:TRUE"
-"ProjectName" = "8:CAS.OPCWSDataAccessSetup"
+"ProjectName" = "8:DataPorter.WSDataAccessSetup"
 "LanguageId" = "3:0"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:0"
@@ -22,7 +22,7 @@
         "Entry"
         {
         "MsmKey" = "8:_C70BBA4BF52F74D70106FD622F8B0408"
-        "OwnerKey" = "8:_D1E5D1DBC4F1BCA3A3F2558ED9C79BCF"
+        "OwnerKey" = "8:_D7567B76B49F765012EA6288E7A25272"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -33,7 +33,55 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D1E5D1DBC4F1BCA3A3F2558ED9C79BCF"
+        "MsmKey" = "8:_D7567B76B49F765012EA6288E7A25272"
+        "OwnerKey" = "8:_5502AF9B86A4452E8727F14EE06F93D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E3CE4D5FA40FEB21FA1A45D5B8D1A08E"
+        "OwnerKey" = "8:_F12F7A7CD745E9E1FD562BEF58AA617E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E3CE4D5FA40FEB21FA1A45D5B8D1A08E"
+        "OwnerKey" = "8:_5502AF9B86A4452E8727F14EE06F93D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E3CE4D5FA40FEB21FA1A45D5B8D1A08E"
+        "OwnerKey" = "8:_D7567B76B49F765012EA6288E7A25272"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EDFE0B7D373A58742122F79AEB3A3960"
+        "OwnerKey" = "8:_5502AF9B86A4452E8727F14EE06F93D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EDFE0B7D373A58742122F79AEB3A3960"
+        "OwnerKey" = "8:_E3CE4D5FA40FEB21FA1A45D5B8D1A08E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EDFE0B7D373A58742122F79AEB3A3960"
+        "OwnerKey" = "8:_F12F7A7CD745E9E1FD562BEF58AA617E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F12F7A7CD745E9E1FD562BEF58AA617E"
+        "OwnerKey" = "8:_D7567B76B49F765012EA6288E7A25272"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F12F7A7CD745E9E1FD562BEF58AA617E"
         "OwnerKey" = "8:_5502AF9B86A4452E8727F14EE06F93D0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,13 +94,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D1E5D1DBC4F1BCA3A3F2558ED9C79BCF"
+        "OwnerKey" = "8:_D7567B76B49F765012EA6288E7A25272"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F12F7A7CD745E9E1FD562BEF58AA617E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E3CE4D5FA40FEB21FA1A45D5B8D1A08E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_C70BBA4BF52F74D70106FD622F8B0408"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EDFE0B7D373A58742122F79AEB3A3960"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -181,20 +247,113 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D1E5D1DBC4F1BCA3A3F2558ED9C79BCF"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D7567B76B49F765012EA6288E7A25272"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:CAS.CommServer.DeviceSymulator, Version=5.1.0.37240, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:CAS.CommServer.DeviceSimulator, Version=5.1.2.23357, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_D1E5D1DBC4F1BCA3A3F2558ED9C79BCF"
+                    "_D7567B76B49F765012EA6288E7A25272"
                     {
-                    "Name" = "8:CAS.CommServer.DeviceSymulator.dll"
+                    "Name" = "8:CAS.CommServer.DeviceSimulator.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:CAS.CommServer.DeviceSymulator.dll"
+            "SourcePath" = "8:CAS.CommServer.DeviceSimulator.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A9300CCBBEFE463C92B649EBFB36C002"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E3CE4D5FA40FEB21FA1A45D5B8D1A08E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CAS.RTLibComm, Version=5.0.2.39088, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_E3CE4D5FA40FEB21FA1A45D5B8D1A08E"
+                    {
+                    "Name" = "8:CAS.RTLibComm.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:CAS.RTLibComm.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A9300CCBBEFE463C92B649EBFB36C002"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EDFE0B7D373A58742122F79AEB3A3960"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CAS.CodeProtect, Version=5.0.2.39087, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_EDFE0B7D373A58742122F79AEB3A3960"
+                    {
+                    "Name" = "8:CAS.CodeProtect.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:CAS.CodeProtect.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A9300CCBBEFE463C92B649EBFB36C002"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F12F7A7CD745E9E1FD562BEF58AA617E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CAS.RTLib, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F12F7A7CD745E9E1FD562BEF58AA617E"
+                    {
+                    "Name" = "8:CAS.RTLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:CAS.RTLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A9300CCBBEFE463C92B649EBFB36C002"
@@ -316,7 +475,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:CAS.OPCWSDataAccess"
         "ProductCode" = "8:{730ED564-DD1F-4051-8480-D737DC0C5041}"
-        "PackageCode" = "8:{E515D2CD-81F0-4A85-A7AB-624D9D29DE38}"
+        "PackageCode" = "8:{5DBF5AF6-405B-4FD7-9363-337A86C660EE}"
         "UpgradeCode" = "8:{561544D6-B9F0-4EA8-A245-4CEB48C971DC}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -768,7 +927,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5502AF9B86A4452E8727F14EE06F93D0"
             {
-            "SourcePath" = "8:..\\CAS.OPCWSDataAccess\\obj\\Release\\OPCWSDataAccess.dll"
+            "SourcePath" = "8:..\\CAS.OPCWSDataAccess\\obj\\Debug\\CAS.CommServer.DA.DataPorter.OPCWSDataAccess.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3C70E06FE2D845E5BA1D25ADDFDF9BDF"

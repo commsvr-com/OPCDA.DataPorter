@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BaseStation.DataTypes" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwAAAAAAAAAgAAggAAAAAAAAAACAAAAAAABAA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\DataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.OPCDataQueue">
+    <Position X="0.5" Y="11" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BaseStation.OPCDataQueue.OPCClientGroup">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="BaseStation.OPCDataQueue.OPCClientGroup.OPCClientItemValue">
+            <TypeIdentifier>
+              <NewMemberFileName>SRC\OPCDataQueue.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+          <Class Name="BaseStation.OPCDataQueue.OPCClientGroup.OPCClientTag">
+            <TypeIdentifier>
+              <NewMemberFileName>SRC\OPCDataQueue.cs</NewMemberFileName>
+            </TypeIdentifier>
+            <Lollipop Position="0.2" />
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>SRC\OPCDataQueue.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BaseStation.OPCDataQueue.OPCClientServerInterface">
+        <TypeIdentifier>
+          <NewMemberFileName>SRC\OPCDataQueue.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BaseStation.OPCDataQueue.OPCClientTransaction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SRC\OPCDataQueue.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAAAAAAAAACBACAAAAAAAAAAg=</HashCode>
+      <FileName>SRC\OPCDataQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.ItemDescriber.ItemDecriberDataSet" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAwCACAJABAAAwAAAIAgCQBwAAIAIAQEABBA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\ItemDescriber\ItemDecriberDataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.ItemDescriber.ItemDescriber2OpcDA" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\ItemDescriber\ItemDescriber2OpcDA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.ItemDescriber.XMLManagement" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\ItemDescriber\XMLManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.Management.Group" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIQAAAAQGAAAAAEAAAAAAAAIAAAAgAAAIAAAAAAAAA=</HashCode>
+      <FileName>BaseStation\Management\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.Management.OPCClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIEREIAAUgOEAgAQQIBiAAAAQQgQAAAMggAEQgiNAJA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\Management\OPCClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BaseStation.Management.OPCGroup" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFFRAMAAQCE0igAEQIAgAAQAAQBBQAQAgCAEAgwLQkg=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\Management\OPCGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BaseStation.Management.OPCTag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAExBJogQCElgwIECIggAQQJowAFAAQAgAgkBgAJEAA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\Management\OPCTag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CAS.OPC.OPC_Interface">
+    <Position X="4.25" Y="11" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CAS.OPC.OPC_Interface.Event">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\OPC\OPC_Interface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="CAS.OPC.OPC_Interface.OPCGroup">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\OPC\OPC_Interface.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Interface Name="CAS.OPC.OPC_Interface.WriteTag">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\OPC\OPC_Interface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Class Name="CAS.OPC.OPC_Interface.OPC_Interface_Tag">
+        <NestedTypes>
+          <Class Name="CAS.OPC.OPC_Interface.OPC_Interface_Tag.OPC_Interface_TagInDevice" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\OPC\OPC_Interface.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\OPC\OPC_Interface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAQCAABEUQIAgIgAIIQkBQAAEAAKBAAAIAAAAgQSAA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\OPC\OPC_Interface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.RemoteAccess.HTTP.Soap.HTTPSoapServer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAAAAAAAAAACAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>c:\vs\VS_branchMZ_NewDataPorterGUI\PR24XX-Biblioteka\BaseStation\RemoteAccess\HTTP\Soap\HTTPSoapServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BaseStation.RemoteAccess.TCP.Binary.TCPBinaryServer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAAAAAAAAAACAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>BaseStation\RemoteAccess\tcp\binary\TCPBinaryServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataPorter.DataPorterInstaller" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataPorterInstaller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.MainForm" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/2CJJQDB4GSR7FQQgIqyEQgLQR+KHpJ1HyIhzCIwEjQ=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.SplashScreen" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAACAAAABAAAI=</HashCode>
+      <FileName>SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.AppConfigManagement" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQA=</HashCode>
+      <FileName>SRC\AppConfigManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.Initialization" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>SRC\Initialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.ReportGenerator" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SRC\ReportGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.XMLManagement" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAQAAAAAAEAAAAAAAAACAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SRC\XMLManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.Properties.Resources" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.ClientListViewItems.ClientListViewItem" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAABAEAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>SRC\ClientListViewItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.ClientListViewItems.OPCGroupsListView" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SRC\ClientListViewItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.ClientListViewItems.OPCClientListView" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SRC\ClientListViewItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.ClientListViewItems.OPCTagListView" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SRC\ClientListViewItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPorter.ClientListViewItems.OPCTransactionListView" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SRC\ClientListViewItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseStation.Transactions.TransactionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Processes.HandlerWaitTimeList&lt;TElement&gt;">
+    <Position X="1.75" Y="8.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Processes.WaitTimeList&lt;TElement&gt;">
+    <Position X="0.75" Y="3.5" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Processes.WaitTimeList&lt;TElement&gt;.TODescriptor">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="System.Collections.IComparer" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,18 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "DataPorterDataBase"
+   MSDTVersion = "80"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "MainTableCreation.sql"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "DataPorterDataBase.mdf"
+         ConnectStr = "Data Source=CAS_MZNEW2\SQLEXPRESS;AttachDbFilename=C:\vs\VS_Trunk_DDE_Client\PR26-DataPorter\DataPorterDataBase\DataPorterDataBase.mdf;Initial Catalog=DataPorterDataBase;Integrated Security=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

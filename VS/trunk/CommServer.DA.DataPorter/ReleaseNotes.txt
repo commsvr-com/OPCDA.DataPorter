@@ -1,0 +1,391 @@
+#####################################################################
+# DataPorter release notes
+#
+# $LastChangedDate$
+# $Rev$
+# $LastChangedBy$
+# $URL$
+# $Id$ 
+#
+#####################################################################
+
+
+#####################################################################
+# DataPorter rel_2_00_12 Bravo-Papa
+# 2011.05.18
+#####################################################################
+
+New DataPorter 2.00.12 is available.
+This is only bugfix release. The main changes are listed below:
+- Resolved issue with license installation ("wrong hardware key");
+- Resolved issue with displaying information about license failure.
+
+DataPorter 2.00.12 jest ju¿ dostêpny.
+Ten release zawiera tylko drobne poprawki. Do najwa¿niejszych zmian i nowoœci zaliczyæ mo¿na:
+- Rozwi¹zano problem z instalacj¹ licencji (i informacj¹ o z³ym kluczu sprzêtowym);
+- Rozwi¹zano problem z wyœwietlaniem informacji o problemie z licencj¹.
+
+
+This release includes:
+    * 4.00.02-CMCORE Bravo Kilo
+    * 2.0.108-NETAPI - Alpha Echo 
+    * 4.00.02-CLIB Bravo Lima
+    * 1.00.04-CRSC - Bravo Golf
+    * 3.10.02-OPCV - Bravo November
+
+#####################################################################
+# DataPorter rel_2_00_10
+# 2011.03.31
+#####################################################################
+
+New DataPorter 2.00.10 is available.
+The main changes are listed below:
+- Some improvements to the user interface.
+- Improved licensing management.
+- Improved support for Windows Vista, 7 and 2008.
+- New location (based on ALLUSERSPROFILE) of configuration and log files (see product manual for details).
+- New version of OPC Viewer 3.10.00 is included.
+- Support of x64 operating systems(DataPorter works as 32-bit application on x64 OS)
+- Small bugfixes and improvements. 
+
+Do najwa¿niejszych nowoœci i zmian zaliczyæ mo¿na:
+- Drobne poprawki interfejsu u¿ytkownika.
+- Ulepszono sposób zarz¹dzania licencjami w oprogramowaniu.
+- Poprawiono wsparcie dla systemów operacyjnych jak Windows Vista, 7 i 2008.
+- Pliki konfiguracyjne i logów umieszczano w nowej lokalizacji (bazuj¹cej na ALLUSERSPROFILE) (szczegó³y opisano w dokumentacji do produktu).
+- Do³¹czono now¹ wersjê oprogramowania OPC Viewer 3.10.00
+- Dodano wsparcie dla systemów x64 (DataPorter pracuje jako aplikacja 32-bitowa w systemie x64)
+- Drobne poprawki i ulepszenia.
+
+Issues in this release:
+DP-2631	Enter unlock code window don't work when Alt+K is pressed.
+DP-2237	DP: Include changes of referenced components e.g.: CLIB: Release 3.70.10
+DP-2236	DP: Release 2.00.10
+DP-2343	Changes referenced to Licensing
+DP-2079	Exception "No key pair" on Windows Vista
+DP-2609	DataPorter tests cannot be compiled
+DP-2108	Items_dsc.xml is being searched by DataPorter service in system32 directory
+DP-2164	DataPorter is not working on x64 OS
+DP-1018	Installation does not remove old license
+DP-2469	Split AboutForm and LicenseForm
+DP-377	Console: Aoutoclose window: "are you sure to close the application"
+DP-2440	Implement software unlocking codes
+DP-2446	Implement listener for License warning
+DP-2613	Open/Save file dialogs should open
+DP-2566	Add namespace in the AssemblyVersionInfo
+DP-2606	DataPorter: check for UAC compatibility
+DP-2138	Replace, in ItemDescriber class, strings from resources with normal strings
+DP-2426	Improve location of the logs for DataPorter package software
+DP-2629	Add service description.
+DP-2356	Modify setup to install content files as CommonApplicationData
+DP-1562	Add information about Hardware Key in end-user license
+DP-1566	Add to license information about maintenance
+DP-916	New interface with GIS
+
+    * 4.00.00-CMCORE Alpha Victor
+    * 2.0.108 - NETAPI - Alpha Echo 
+    * 3.70.06-DPP - Alpha Yankee
+    * 4.00.00-CLIB Alpha Whiskey
+    * 1.00.00-CRSC Alpha X-Ray   
+
+#####################################################################
+# Data Porter rel_2_00_08
+# 2010.08.05
+#####################################################################
+
+The main changes are listed below:
+* Graphical transaction configuration tool is fixed (issue with OPC items that disappear in operation configuration)
+* New, extended help file is added
+* Some improvements and bug fixes
+
+Do najwa¿niejszych nowoœci i zmian zaliczyæ mo¿na:
+* Poprawki w graficznym konfiguratorze transakcji (naprawiono problem ze znikaj¹cymi elementami OPC w ustawieniach operacji)
+* Dodanie nowego, rozszerzonego pliku pomocy
+* Drobne poprawki i usprawnienia
+
+DP-2106 Add OPCHelp instead of DataPorter help to the setup
+DP-2090	Release 2.00.08
+DP-2102	Webservice connection to service issue
+DP-2098	Items from the transaction operations disappears after saving of the configuration
+DP-2089	TransactionRate value must be greater then 0
+DP-2094	Unable to get values associated with the key: UseTimeStampToCheckForUpdate from the config file
+DP-2093	Some input values in transaction has sometimes null values
+DP-2105	Remove installer of SampleHTTPClient from DataPorter setup
+
+#####################################################################
+# Data Porter rel_2_00_06
+# 2010.05.31
+#####################################################################
+
+This is bugfix release. The main changes are listed below:
+* Saving data in the database is fixed 
+* Displaying graphic blocks in transactions configuration is fixed
+
+Ta wersja zawiera jedynie poprawki do wykrytych b³êdów. Do najwa¿niejszych nowoœci i zmian zaliczyæ mo¿na:
+* Poprawki w zapisie do bazy danych
+* Poprawki do wyœwietlania graficznych bloków w konfiguratorze transakcji
+
+DP-2076	Release 2.00.06	2.00.06-DP
+DP-2074	PeriodicDBSaveOperationShape.GetLabelSize: System.ComponentModel.Win32Exception:B³¹d podczas tworzenia uchwytu okna
+DP-2075	System.Exception in CAS.DataPorter.Lib.Transactions.Transaction.Go
+
+#####################################################################
+# Data Porter rel_2_00_04
+# 2010.05.12
+#####################################################################
+
+This is bugfix release. The main changes are listed below:
+* Buffered queues are fixed
+* Some log messages and desriptions of paramteres are improved or fixed
+
+Ta wersja zawiera jedynie poprawki do wykrytych b³êdów. Do najwa¿niejszych nowoœci i zmian zaliczyæ mo¿na:
+* Poprawki do dzia³ania kolejek buforowych
+* Poprawienie lub dodanie pewnych opisów parametrów lub wiadomoœci zapisywanych do logów
+
+DP-2071	Release 2.00.04
+DP-2050	Monitor disconnect after entering Transaction tab	
+DP-2053	Change the description of the Deadband
+DP-2049	Strange message after license expiration
+DP-2069	Buffered queues (WS) are not working
+
+
+#####################################################################
+# Data Porter rel_2_00_02 (codename: IOP)
+# 2009.10.28
+#####################################################################
+
+The main changes and new functionalities are listed below:
+* Tested for Compliance and Interoperability at OPC Interoperability Workshop (2009) in Nuremberg, Germany
+* Changes and improvements in user interface:
+    o link to the license agreement
+    o graphical improvements of DataProter Installer
+    o sorting of the item list in DataPorter and OPC Viewer
+* OPC Viewer rel. 3.00.02 is a component of DataPorter 2.00.02
+* Added OPC Core Components as prerequisites for installation
+* Some improvements and bug fixes
+
+Do najwa¿niejszych nowoœci i zmian zaliczyæ mo¿na:
+* Zosta³a przetestowana pod k¹tem kompatybilnoœci i wspó³dzia³ania z innymi produktami podczas OPC Interoperability Workshop (2009) w Norymberdze, Niemcy
+* Zmiany i poprawki w interfejsie u¿ytkownika:
+    o dodano linki do umowy licencyjnej
+    o ulepszono instalator DataPorter'a
+    o dodano sortowanie elementów na liœcie elementów w DataPorter'rze i OPC Viewer'rze
+* OPC Viewer w wersji 3.00.02 jest komponentem DataPorter'a w wersji 2.00.02
+* Dodano OPC Core Components jako wymagane przed rozpoczêciem instalacji
+* Drobne poprawki i usprawnienia
+
+
+DP-1066  	DataPorter does not support polish letters (¹,æ,œ, etc..) in tag names  
+DP-1868 	OPC Viewer: OperGUI: R/W operation: problem with long name for items 
+DP-1869 	DP Monitor: after reconnectiong sometimes items (groups, servers etc) are in many columns 
+DP-1871 	OPC Viewer: OperGUI: sometimes warnings about operation are displayed when OPC V is closing 
+DP-1917 	Fix compilation warning connected to ListViewSorter 
+DP-1839 	OPC Interface improvements and bug fixes (during IOPW) 
+DP-1001 	Insataller ends with exception 
+DP-1019 	ClickOnce does not have icon in the add/remove program dialog 
+DP-918 	Transaction cycle problem - not executed every time. 
+DP-156 	Copying of string type seems not working. 
+DP-1901 	Sorting of the list in DP and OPCV 
+DP-1906 	Small problems with DP GUI 
+DP-1840 	UI improvements (monito, operation editor, etc...) (during IOPW) 
+DP-891 	Cleanup namespaces for DataPorte projectr. 
+DP-66 	Transaction rate times should be verified 
+DP-155 	Error when conversion on the VT_STRING is set 
+DP-1884 	OPC Core Components should be added to prerequisites 
+DP-1895 	Update banner in setup project to new version 
+DP-944 	Remove from the project OperationStatistics 
+DP-892 	Add link in the main GUI to License agreement, add splash screen for DataPorter Setup 
+DP-738 	Define new library for our OPC objects. 
+DP-1907 	DataPorter: fix small warning and add script to build the code from script 
+
+#####################################################################
+# Data Porter rel_2_00_00 (codename: Internal IOP09)
+# 2009.10.28
+#####################################################################
+DP-1762  	DataPorter problem after license expiration  
+DP-1763 	Tags when not found in server can have good quality 
+DP-1810 	When DA20 is used we cannot write quality or timestamp (E_NO_WRITEQT)When DA20 is used we cannot write quality or timestamp (E_NO_WRITEQT) 
+DP-1825 	DA2 synchr read issues 
+DP-184 	ReadMaxAge and E_FAIL 
+DP-185 	When server returns UNSUPPORTED UPDATE RATE at least message should appear 
+DP-994 	Tags quality do not change after disconnecting from the server 
+DP-1811 	Make the DataPorter more informative (now errors sometimes say nothing) 
+DP-172 	Check if the Write operation writes to the device (if we have something about this in the OPC DA spec) 
+DP-160 	When DA2 is used there is one unecessary group added 
+DP-161 	VT_EMPTY, what DataPorter is doing after receiving such value 
+DP-164 	Dispaly the version of the DA spec that is used for connection. 
+DP-914 	Move processing engine to service 
+DP-1728 	Release: IOP09 
+
+
+#####################################################################
+# Data Porter rel_1_30_00 (codename: DataPorter as service)
+# 2009.07.dd
+#####################################################################
+
+New version 1.30.00 of DataPorter. The main changes and new functionalities are listed below:
+- DataPorter has now ability to run as Windows service. Nobody has to be logged in to run DataPorter. DataPorter as ordinary service can be configured to start automatically, run on particular account, no interaction with desktop is required
+- New DataPorter monitor is available. This new tool allows to display the statistics from DataPorter engine (from local or from remote PC):
+  * The user interface in compare to previous DataPorter window is improved 
+  * New icons are used
+  * New Toolstrip to control (start, stop restart) the local DataPorter service is added
+  * New statistics information
+  * Transaction statistics allows easier analysis and are more informative
+- Software is linked to new online DataPorter documentation (http://www.commsvr.com/DataPorter/Index.aspx)
+- New operation blocks are available: "DB Read" and "DB +". Those new blocks allows to read outputs from database operations. Those new block are preconfigured to proceed example activity.
+- DataPorter configuration application (OPC Viewer) has new toolstrip to control (start, stop restart) the local DataPorter service)
+
+
+Nowa wersja oprogramowania DataPorter rel. 1.30.00. Do najwa¿niejszych zmian zaliczyæ mo¿na:
+- DataPorter mo¿e dzia³aæ jako serwis systemu Windows. Dziêki temu nikt nie musi byæ zalogowany by dzia³a³ DataPorter. DataPorter jak ka¿dy serwis mo¿e startowaæ automatycznie, byæ uruchamiany na wybranym koncie u¿ytkownika. Nie jest konieczna ¿adna interakcja DataPorter'a z pulpitem Windows
+- Nowy monitor dla DataPorter'a jest dostêpny. To nowe narzêdzie pozwala na wyœwietlanie statystyk z silnika DataPorter'a (zarówno z lokalnego jak i zdalnego komputera, na którym zainstalowany jest DataPorter):
+   * Interfejse u¿ytkownika (w porównaniu do poprzedniego okna DataPorter'a) jest ulepszony
+   * Nowe ikony s¹ dostêpne
+   * Nowy pasek narzêdziowy do sterowania (uruchamiania, zatrzymywania i restartu)  lokalnym serwisem DataPorter'a zosta³ dodany 
+   * Nowe informacje statystyczne pochodz¹ce z DataPorter'a
+   * Statystyki dotycz¹ce transakcji pozwalaj¹ teraz na lepsz¹ analizê i daj¹ lepsz¹ informacjê
+- Oprogramowanie korzysta nowej dokumentacji dostêpnej "on-line" (http://www.commsvr.com/DataPorter/Index.aspx)
+- Dostêpne s¹ nowe bloki operacji: "DB Read" i "DB +".Te nowe operacje pozwalaj¹ na odczyt wyjœæ pochodz¹cych z operacji bazodanowych. Bloki zosta³y wstêpnie skonfigurowane do prezentacji przyk³adowej czynnoœci.
+- Aplikacja konfiguracyjne dla DataPorter'a (OPC Viewer) ma nowy pasek narzêdziowy do sterowania (uruchamiania, zatrzymywania i restartu)  lokalnym serwisem DataPorter'a
+
+
+
+Changes based on ITR:
+Id	Summary
+1276	Outputs for DB operation
+1306	DB SAve: param is empty when user has not opened properties for DB save operation block
+1335	Prepare Help
+1580	Cleanup: Remove Transition and use Transaction term instead.
+1629	DataPorter as service
+1649	DataPorter release 1.30.00
+1066	DataPorter does not support polish letters (¹,ê,æ,ñ, etc..) in tag names
+1274	Information about Transaction run counter in the monitor
+19	DataPorter remote monitor.
+461	Prepare english documentation
+889	Port MainForm to VS2008
+959	Transactions do not change the icon after failure
+1563	Menu entry to register software by email.
+1581	New icons for DataPorter (like in the OPC Viewer)
+
+
+
+
+Data Porter rel_1_21_01
+changes:
+PL:
+
+    * W wersji demo dostêpny jest zapis z OPC do bazy danych. DataPorter mo¿e wpisywaæ dane niemal do dowolnej bazy danych, wbudowane sterowniki pozwalaj¹ na obs³ugê baz danych takich jak: Microsoft SQL, Oracle oraz dowolnej poprzez ODBC.
+    * DataPorter domyœlnie instaluje przekonfigurowan¹ bazê MsSQL, do której mo¿na uruchomiæ zapis umieszczaj¹c jedynie bloczek zapisu do bazy danych (nie potrzebne jest wpisywanie ¿adnych definicji po³¹czenia czy kwerend)
+    * DataPorter umo¿liwia zapis do OPC poprzez serwis internetowy (Web Service) (wczeœniej dostêpny by³ jedynie odczyt danych z OPC teraz mo¿na równie¿ dane zapisywaæ).
+    * Dostêpny jest nowy sposób uruchamiania transakcji. Do ka¿dej transakcji mo¿na przypisaæ element, dla którego zmiana wartoœci uruchamia transakcjê. Mo¿liwe jest równie¿ definiowanie procentowo jak bardzo ma siê zmieniæ wartoœæ by uruchomiæ transakcjê.
+
+EN:
+
+    * Writing values from OPC  to database is available in DataPorter demo version now. DataPorter can write data to any database. Build-in drivers allows the connection to databases like Microsoft SQL, Oracle or any other using ODBC.
+    * DataPorter by default installs preconfigured MsSQL database. It is very easy to start writing to that database, the only think that must be done is adding the "DB save" block to transaction in the configuration (no programming, SQL scripting, or connection defining is necessary).
+    * DataPorter allows to write to OPC from web services  (previously only reading form OPC via web services was available, now you can set the value in OPC using web services).
+    * There is new possibility of triggering the transactions. For any transaction trigger item can be defined. The change of the value of this item executes  the transaction. A user can defined the change  percent that cause the execution.
+
+Data Porter rel_1_21_00
+beta temporal version - for preview only
+
+Data Porter rel_1_20_01
+changes:
+* Fixed problem with asynchronous connection and reading data from some OPC servers 
+
+* rozwiazanao problem z polaczeniem i odczytem asynchronicznym danych z niektórych serwerów OPC
+
+Data Porter rel_1_2_0 
+changes:
+* Configuration using OPC Viewer. 
+* New improved configuration file.
+* New improved GUI. New GUI for Transaction and Operation.
+* Improvement in DataPorter engine. Algorithms where improved.
+* New imprved mechanism of saveing diagnostic information in log file.
+
+* Konfiguracja DataPortera z wykorzystaniem OPC Viewera.
+* Nowy ulepszony plik konfiguracyjny.
+* Nowe GUI. Ulepszone tworzenie transakcji i operacji.
+* Ulepszony silnik DataPortera. Algorytmy zostaly ulepszone.
+* Ulepszony mechanizm zapisu informacji diagnostycznych do pliku logów.
+
+
+Data Porter rel_1_1_6 
+changes done:
+DP-644	Add Item describer to setup
+DP-441	bug:Big memory usage
+DP-520	Information about OPC Foundation components in About box
+DP-553	Remove of OPCClientTRansporter use DataPorter instead
+DP-468	StopwatchManager: Arithmetic operation resulted in an overflow.
+DP-493	Add button Filter at the CreateSubscription dialog
+DP-642	Run DataPorter Window minimized
+DP-421	Instalation packages for CAS.OPCWSAccess and WS2Remoting
+DP-343	Prepare CAS.OPCWSAccess and other components compatible with GIS
+DP-337	Error in RunTransitionChain():System.NullReferenceException
+
+
+Data Porter rel_1_1_5 
+changes:
+* Changes based on changes in PR24XX-Biblioteka because of changes in the commserver code. 
+  (e.g. fixes to on data change, fixed to tracing in watchdog, wait time list has the highest priority)
+* Code is moved to VS 2008
+* Directory OPCWSDataAccess is renamed to CAS.OPCWSDataAccess (changes in issue DP-343)
+* This release should originally contain fixes for DP-421 and  DP-343 but because of other 
+  problems with those issues there will be new release: 1.1.6 ( critical bugfixes for 1.1.5) 
+
+
+
+Data Porter rel_1_1_4 (beta)
+changes:
+   	   	Misc  	Task  	DP-292  	prepare release 1.1.4 (beta)  	mzbrzezny  	Open
+  	  	Configurator 	Bug 	DP-273 	Configurator end with exception when you open configuration twice 	mzbrzezny 	Resolved
+  	  	Configurator 	Bug 	DP-285 	OPC Client Config: problems with importing CSV tag lists 	mzbrzezny 	Resolved
+  	  	GUI 	Bug 	DP-274 	Problem with displaying information about operation and transaction 	mzbrzezny 	Resolved
+  	  	Misc 	Improvement 	DP-163 	DataPorter ends with an exception when two DP is run parallery 	mzbrzezny 	Resolved
+  	  	Misc 	Task 	DP-47 	removal of keys from the app.config file 	mzbrzezny 	Resolved
+  	  	Misc 	Task 	DP-275 	Wrong configuration close the application withot any notification 	mzbrzezny 	Resolved
+  	  	transactions and operation 	Bug 	DP-223 	To String problem: Value of OperationDBSave.Param.Tag can be read only if the value and tag is set 	mzbrzezny 	Resolved
+  	  	transactions and operation 	Bug 	DP-192 	remove checking of Active field for all operation and transaction 	mzbrzezny 	Resolved
+  	  	transactions and operation 	Task 	DP-222 	Test conditional save to database. 	mzbrzezny 	Resolved
+
+
+Data Porter rel_1_1_3 (rel_1_1_2R5)
+changes:
+Documentation  	New Feature  	DP-154  	Link to the documentation  	mzbrzezny  	Resolved
+  	  	OPC Compliance 	Bug 	DP-159 	DataPorter is not removing groups that it create 	mzbrzezny 	Resolved
+  	  	OPC Compliance 	Bug 	DP-171 	Active field for the Item must be set to true only when client reads from the cache 	mzbrzezny 	Resolved
+  	  	OPC Compliance 	Bug 	DP-190 	DataPorter clears deadband unnecessary 	mzbrzezny 	Resolved
+  	  	OPC Compliance 	Task 	DP-30 	pass test with OPC Analyzer 	mzbrzezny 	Resolved
+  	  	OPC engine 	Bug 	DP-193 	tag values should be only converted if read operation successed 	mzbrzezny 	Resolved
+  	  	OPC engine 	Bug 	DP-195 	DataPorter cannot read when timestamp is 0:0:0 	mzbrzezny 	Resolved
+  	  	OPC engine 	Improvement 	DP-180 	Revise the group update rate. 	mzbrzezny 	Resolved
+  	  	OPC engine 	Improvement 	DP-131 	Tracing in the OPC_Interface 	mzbrzezny 	Resolved
+  	  	transactions and operation 	Bug 	DP-191 	DataPorter runs transaction too often 	mzbrzezny 	Resolved
+  	  	some fixes to the OPC Viewer
+  	  	
+  	  	
+Data Porter rel_1_1_2
+changes:
+	Some upgrade to tracing
+	
+	
+Data Porter rel_1_1_1
+changes:
+    Configurator Bug DP-35 Exception may be thrown during operation initialisation mzbrzezny Resolved 
+    Configurator Improvement DP-15 Import List fo tags mzbrzezny Resolved 
+    Engine New Feature DP-88 NEW Processes.WaitTimeList - (based on COM-52) mzbrzezny Resolved 
+    Misc Improvement DP-13 Time consuming methods methods in the GUI has to be called asynchronously mzbrzezny Resolved 
+    Misc New Feature DP-38 IntelligentDBSave - multiconditional mzbrzezny Resolved 
+    Misc New Feature DP-50 Allow selection of OPC DA - now only DA2.0 is supported mzbrzezny Resolved 
+    Configurator Bug DP-33 Problems after deleting a row in configurator. mzbrzezny Closed 
+
+
+Data Porter rel_1_1_0 (precise compilation version: 1.1.2769.26474 - it should be changd to 1.1.0.* in the future)
+
+Changes:
+- Web Service is added
+- Setup project is added
+- OPC Viewer is added
+- Documentation (polish) is added
+- Licensing is added
+

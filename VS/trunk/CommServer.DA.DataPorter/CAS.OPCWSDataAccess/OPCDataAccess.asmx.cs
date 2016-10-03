@@ -17,24 +17,24 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.DeviceSimulator;
 using System;
 using System.ComponentModel;
 using System.Web.Services;
 using System.Xml.Serialization;
-using CAS.Lib.DeviceSimulator;
 
 namespace OPCWSDataAccess
 {
   /// <summary>
   /// Summary description for OPCDataAccess
   /// </summary>
-  [WebService( Namespace = "http://cas.eu/Opc.Da/", Name = "OPCDataAccess", Description = "Data Acces to OPC via Web Services" )]
+  [WebService( Namespace = "http://cas.eu/Opc.Da/", Name = "OPCDataAccess", Description = "Data Access to OPC via Web Services" )]
   [WebServiceBinding( ConformsTo = WsiProfiles.BasicProfile1_1 )]
   [ToolboxItem( false )]
   public class OPCDataAccess: System.Web.Services.WebService
   {
     private CAS.Lib.DeviceSimulator.IOPCDataAccess remotetype_DA;
-    [WebMethod( Description = "Get all item names availiable via this service" )]
+    [WebMethod( Description = "Get all item names available via this service" )]
     public string[] GetAvailiableItems()
     {
       return ( (IOPCDataAccess)remotetype_DA ).GetAvailiableItems();

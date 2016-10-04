@@ -1,11 +1,11 @@
 ﻿//_______________________________________________________________
 //  Title   :  Assembly info for: CAS.CommServer.DA.DataPorter.OPCViewer
 //  System  : Microsoft VisualStudio 2015 / C#
-//  $LastChangedDate:  $
-//  $Rev:  $
-//  $LastChangedBy:  $
-//  $URL:  $
-//  $Id:  $
+//  $LastChangedDate$
+//  $Rev$
+//  $LastChangedBy$
+//  $URL$
+//  $Id$
 //
 //  Copyright (c) 2000-2016 CAS LODZ POLAND
 //  +48 (42) 686 25 47

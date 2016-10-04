@@ -21,10 +21,6 @@
 //  mailto:techsupp@cas.eu
 //  http://www.cas.eu
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
 using CAS.DataPorter.Configurator;
 using CAS.DataPorter.Lib.Transactions;
 using CAS.DataPorter.Lib.Transactions.Operations;
@@ -32,9 +28,13 @@ using CAS.DataPorter.Properties;
 using CAS.Lib.OPCClient.Da;
 using CAS.Lib.OPCClient.Da.Management;
 using CAS.Lib.RTLib.Processes;
+using CAS.Lib.RTLib.Utils.Collections.Generic;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
 using OPCClientTag = CAS.Lib.OPCClient.Da.OPC_Interface.OPC_Interface_Tag;
 using OpcDa = global::Opc.Da;
-using CAS.Lib.RTLib.Utils.Collections.Generic;
 
 namespace CAS.DataPorter
 {

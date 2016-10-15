@@ -13,23 +13,23 @@
 //  http://www.cas.eu
 //</summary>
 
-using System;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
 using CAS.DataPorter.Configurator;
-using CAS.Lib.CodeProtect.Controls;
+using CAS.DataPorter.RemoteAccess;
+using CAS.Lib.CodeProtect;
 using CAS.Lib.CodeProtect.LicenseDsc;
 using CAS.Lib.CodeProtect.Properties;
 using CAS.Lib.ControlLibrary;
 using CAS.Lib.DeviceSimulator;
 using CAS.Lib.RTLib.Processes;
-using Configuration = CAS.DataPorter.AppConfigManagement;
-using CAS.Lib.CodeProtect;
-using CAS.DataPorter.RemoteAccess;
+using CAS.Windows.Forms.CodeProtectControls;
+using System;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Threading;
+using System.Windows.Forms;
+using Configuration = CAS.DataPorter.AppConfigManagement;
 
 namespace CAS.DataPorter
 {
@@ -123,7 +123,7 @@ namespace CAS.DataPorter
       Assembly cMyAss = Assembly.GetEntryAssembly();
       using (AboutForm cAboutForm = new AboutForm(null, usr, cMyAss))
       {
-        using (Licences cLicDial = new Licences())
+        using (Licenses cLicDial = new Licenses())
         {
           cAboutForm.ShowDialog();
         }

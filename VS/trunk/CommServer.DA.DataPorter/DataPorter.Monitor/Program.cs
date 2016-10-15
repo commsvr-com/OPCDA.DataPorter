@@ -13,6 +13,7 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.CodeProtect;
 using System;
 using System.Windows.Forms;
 
@@ -26,25 +27,25 @@ namespace CAS.DataPorter.Monitor
     [MTAThread]
     static void Main()
     {
-      string m_cmmdLine = Environment.CommandLine;
+      string _commandLine = Environment.CommandLine;
 #if DEBUG
-      if ( m_cmmdLine.ToLower().Contains( "debugstop" ) )
-        MessageBox.Show( "Atach debug point", "Debug entry point", MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
+      if (_commandLine.ToLower().Contains("debugstop"))
+        MessageBox.Show("Attach debug point", "Debug entry point", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
 #endif
-      if ( m_cmmdLine.ToLower().Contains( "installic" ) )
+      if (_commandLine.ToLower().Contains("installic"))
       {
         try
         {
-          CAS.Lib.CodeProtect.LibInstaller.InstalLicense();
+          LibInstaller.InstallLicense(false);
         }
-        catch ( Exception ex )
+        catch (Exception ex)
         {
-          MessageBox.Show( "License instalation has failed, reason: " + ex.Message );
+          MessageBox.Show("License installation has failed, reason: " + ex.Message);
         }
       }
-      MainForm myform = new MainForm();
-      try { Application.Run( myform ); }
-      catch ( Exception ) { }
+      MainForm _form = new MainForm();
+      try { Application.Run(_form); }
+      catch (Exception) { }
     }
   }
 }

@@ -32,7 +32,7 @@ namespace CAS.DataPorter
       {
         try
         {
-          CAS.Lib.CodeProtect.LibInstaller.InstalLicense( true );
+          CAS.Lib.CodeProtect.LibInstaller.InstallLicense( true );
         }
         catch ( Exception ex )
         {
@@ -43,7 +43,7 @@ namespace CAS.DataPorter
       {
 #if DEBUG
         if ( m_cmmdLine.ToLower().Contains( "debugstop" ) )
-          MessageBox.Show( "Atach debug point", "Debug entry point", MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
+          MessageBox.Show( "Attach debug point", "Debug entry point", MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
 #endif
         MainForm myform = new MainForm();
         try { Application.Run( myform ); }

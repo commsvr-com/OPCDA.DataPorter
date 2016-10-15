@@ -1562,7 +1562,7 @@ namespace CAS.DataPorter.Monitor
       this.licenseInfomToolStripMenuItem.Name = "licenseInfomToolStripMenuItem";
       this.licenseInfomToolStripMenuItem.Size = new System.Drawing.Size( 226, 22 );
       this.licenseInfomToolStripMenuItem.Text = "License infomation";
-      this.licenseInfomToolStripMenuItem.Click += new System.EventHandler( this.licenseInfomToolStripMenuItem_Click );
+      this.licenseInfomToolStripMenuItem.Click += new System.EventHandler( this.licenseInformationToolStripMenuItem_Click );
       // 
       // openLogContainingFolderToolStripMenuItem
       // 

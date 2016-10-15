@@ -13,7 +13,8 @@
 //  http://www.cas.eu
 //_______________________________________________________________
 
-using CAS.OPCViewer;
+using CAS.Lib.CodeProtect;
+using CAS.Lib.OPCClientControlsLib;
 using System;
 using System.Security;
 using System.Security.Permissions;
@@ -81,7 +82,7 @@ namespace CAS.CommServer.DA.DataPorter.OPCViewer
     internal static Action<bool> InstallLicense { get { return m_InstallLicense; } set { m_InstallLicense = value; } }
     internal static Func<string, DialogResult> MessageBoxShow { get { return m_MessageBoxShow; } set { m_MessageBoxShow = value; } }
 
-    private static Action<bool> m_InstallLicense = Lib.CodeProtect.LibInstaller.InstalLicense;
+    private static Action<bool> m_InstallLicense = LibInstaller.InstallLicense;
     private static Func<string, DialogResult> m_MessageBoxShow = MessageBox.Show;
     private readonly static string m_InstallLicenseString = "installic";
 
